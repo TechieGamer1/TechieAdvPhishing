@@ -1,9 +1,9 @@
 #!/bin/bash
 
-##   TechieAdvPhishing 	: 	Automated Phishing Tool
+##   Tool NAME    :   Automated Phishing Tool
 ##   Author 		: 	Techie Gamer
 ##   Version 		: 	2.0
-##   Github 		: 	https://github.com/TechieGamer1/TechieAdvPhishing
+##   Github 		: 	https://github.com/TechieGamer1
 
 
 ##                   GNU GENERAL PUBLIC LICENSE
@@ -76,7 +76,7 @@
 ##    The precise terms and conditions for copying, distribution and
 ##    modification follow.
 ##
-##      Copyright (C) 2022 LXANCE-HACKER (https://github.com/LxaNce-Hacker)
+##      Copyright (C) 2023 Techie Gamer (https://github.com/TechieGamer1)
 ##
 
 __version__="1.3"
@@ -353,9 +353,9 @@ msg_exit() {
 about() {
 	{ clear; banner; echo; }
 	cat <<- EOF
-		${GREEN} Author   ${RED}:  ${ORANGE}Prince Katiyar ${RED}[ ${ORANGE}LXANCE-HACKER ${RED}]
-		${GREEN} Github   ${RED}:  ${CYAN}https://github.com/LxaNce-Hacker
-		${GREEN} Social   ${RED}:  ${CYAN}Coming Soon...
+		${GREEN} Author   ${RED}:  ${ORANGE}Techie Gamer ${RED}[ ${ORANGE}TechieGamerBot ${RED}]
+		${GREEN} Github   ${RED}:  ${CYAN}https://github.com/TechieGamer1
+		${GREEN} Insta    ${RED}:  ${CYAN}@dhruv_choudhary_08
 		${GREEN} Version  ${RED}:  ${ORANGE}${__version__}
 
 		${WHITE} ${REDBG}Warning:${RESETBG}
