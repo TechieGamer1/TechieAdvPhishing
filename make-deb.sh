@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Make Deb Package for lxancephisher (^.^)
+# Make Deb Package for TechieAdvPhishing (^.^)
 _PACKAGE=lxancephisher
 _VERSION=1.3
 _ARCH="all"
@@ -30,9 +30,9 @@ cat <<- CONTROL_EOF > ./build_env/DEBIAN/control
 Package: ${_PACKAGE}
 Version: ${_VERSION}
 Architecture: ${_ARCH}
-Maintainer: @LxaNce-Hacker
+Maintainer: @TechieGamer
 Depends: ${_depend}
-Homepage: https://github.com/LxaNce-Hacker/lxancephisher
+Homepage: https://github.com/TechieGamer1/TechieAdvPhishing
 Description: An automated phishing tool with 30+ templates. This Tool is made for educational purpose only !
 CONTROL_EOF
 
@@ -46,6 +46,6 @@ chmod 755 ./build_env/DEBIAN
 chmod 755 ./build_env/DEBIAN/{control,prerm}
 cp -fr scripts/launch.sh ./build_env/$_bin_dir/$_PACKAGE
 chmod 755 ./build_env/$_bin_dir/$_PACKAGE
-cp -fr .github/ .sites/ LICENSE README.md lxancephisher.sh ./build_env/$_opt_dir
+cp -fr .github/ .sites/ LICENSE README.md TechieAdvPhishing.sh ./build_env/$_opt_dir
 dpkg-deb --build ./build_env ${PKG_NAME}
 rm -fr ./build_env
