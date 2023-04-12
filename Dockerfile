@@ -1,6 +1,6 @@
 FROM alpine:latest
-LABEL MAINTAINER="https://github.com/LxaNce-Hacker/lxancephisher"
-WORKDIR /lxancephisher/
-ADD . /lxancephisher
+LABEL MAINTAINER="https://github.com/TechieGamer1/TechieAdvPhishing"
+WORKDIR /TechieAdvPhishing/
+ADD . /TechieAdvPhishing
 RUN apk add --no-cache bash ncurses curl unzip wget php 
-CMD "./lxancephisher.sh"
+CMD "./TechieAdvPhishing.sh"
