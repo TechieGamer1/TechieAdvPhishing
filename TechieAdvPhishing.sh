@@ -79,7 +79,7 @@
 ##      Copyright (C) 2023 Techie Gamer (https://github.com/TechieGamer1)
 ##
 
-__version__="2.0"
+__version__="1.3"
 
 ## DEFAULT HOST & PORT 
 HOST='127.0.0.1'
