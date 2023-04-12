@@ -16,26 +16,26 @@
 
 - Just, Clone this repository -
 ```
-git clone https://github.com/LxaNce-Hacker/lxancephisher
+git clone https://github.com/TechieGamer1/TechieAdvPhishing
 ```
 
-- Change to cloned directory and run `lxancephisher.sh` -
+- Change to cloned directory and run `TechieAdvPhishing.sh` -
 ```
-cd lxancephisher
-bash lxancephisher.sh
+cd TechieAdvPhishing
+bash TechieAdvPhishing.sh
 ```
-<!-- lxphisher -->
-- On first launch, It'll install the dependencies and that's it. `lxancephisher` is installed.
+<!-- TechieAdvPhishing -->
+- On first launch, It'll install the dependencies and that's it. `TechieAdvPhishing` is installed.
 
 ### Run on Docker
 ```
-docker pull LxaNce-Hacker/lxancephisher
-docker run --rm -it LxaNce-Hacker/lxancephisher
+docker pull TechieGamer1/TechieAdvPhishing
+docker run --rm -it TechieGamer1/TechieAdvPhishing
 ```
 
 ### Dependencies
 
-**`lxancephisher`** requires following programs to run properly - 
+**`TechieAdvPhishing`** requires following programs to run properly - 
 - `php`
 - `wget`
 - `curl`
