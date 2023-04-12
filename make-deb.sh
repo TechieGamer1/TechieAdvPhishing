@@ -2,7 +2,7 @@
 
 # Make Deb Package for TechieAdvPhishing (^.^)
 _PACKAGE=TechieAdvPhishing
-_VERSION=2.0
+_VERSION=1.3
 _ARCH="all"
 PKG_NAME="${_PACKAGE}_${_VERSION}_${_ARCH}.deb"
 
