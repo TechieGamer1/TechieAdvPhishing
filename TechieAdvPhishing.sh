@@ -1,9 +1,9 @@
 #!/bin/bash
 
-##   lxancephisher 	: 	Automated Phishing Tool
-##   Author 		: 	Prince Katiyar
-##   Version 		: 	1.3
-##   Github 		: 	https://github.com/LxaNce-Hacker/lxancephisher
+##   TechieAdvPhishing 	: 	Automated Phishing Tool
+##   Author 		: 	Techie Gamer
+##   Version 		: 	2.0
+##   Github 		: 	https://github.com/TechieGamer1/TechieAdvPhishing
 
 
 ##                   GNU GENERAL PUBLIC LICENSE
